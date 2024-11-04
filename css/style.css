@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background-color: rgb(215, 205, 205);
+}
+header{
+    background-color: black;
+    padding: 3%;
+}
+header h1{
+    color: white;
+    text-align: center;
+}
+nav {
+    background-color: rgb(129, 129, 129);
+    padding: 1%;
+}
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    padding-right: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main ul li{
+    display: inline-block;
+}
+.today{
+    border: 3px solid darkgreen;
+}
+.tomorrow{
+    border: 3px solid darkblue;
+}
+main{
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+nav ul li h2 a{
+    color: royalblue;
+}
+p{
+    font-size: 20px;
+}
